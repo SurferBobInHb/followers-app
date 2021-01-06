@@ -32,5 +32,8 @@
             "error",
             "always"
         ]
-    }
+    },
+    "eslintIgnore": [
+        "*.js"
+    ]
 }

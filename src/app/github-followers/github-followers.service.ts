@@ -10,7 +10,7 @@ export class GithubFollowersService {
 
   constructor(private http: Http) {  }
 
-  getFollowers() : Observable<string> {  
+  getFollowers() : Observable<any[]> {  
       return this.http.get(this._url)
           .map(response => response.json());  
   }
