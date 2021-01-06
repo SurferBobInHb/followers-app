@@ -12,6 +12,6 @@ export class GithubFollowersService {
 
   getFollowers() : Observable<string> {  
       return this.http.get(this._url)
-          .map(response => response.json()); 
+          .map(response => response.json());  
   }
 }
